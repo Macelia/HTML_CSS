@@ -41,6 +41,57 @@ body{
     z-index: 1;
     color: #fff; 
 }*/
+
+
+
+
+
+
+header{
+    background-color: rgb(121, 151, 233);
+ 
+    padding: 15px 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 18px;
+   list-style-type: none;
+
+}
+nav ul li {
+    margin-right: 40px;
+  
+}
+#logo{
+    font-size: 28px;
+    color: rgb(14, 12, 8);
+    margin-right: auto;
+    margin-left: 50px;
+ 
+  cursor: pointer;
+}
+#logo:hover{
+    transition: 3ms ease-in-out;
+    text-transform: capitalize;
+}
+nav ul li a {
+    color: rgb(14, 12, 12);
+    /* text-emphasis: circle; */
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
 .p {                                              /*la classe p pour les deux titres h1 et h2*/
     color: rgb(185, 185, 197);
  
@@ -266,10 +317,10 @@ ol {
   }
 form{
     width: 250px;
-    height: 480px;
+    height: 460px;
     background: linear-gradient(rgba(0,0,0,0.1),#333), url("assets/img1.jpg");
     position: absolute;
-    top: 300px;
+    top: 320px;
     left: 870px;
     border-radius: 10px;
     padding: 25px;
